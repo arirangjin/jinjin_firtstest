@@ -37,7 +37,7 @@ public class LoggerAspect {
 			System.out.println("수행 시간 : "+(end-start));
 		}
 		return obj;
-		// return joinPoint.proceed();
+		// return joinPoint.proceed();test
 
 	}
 }
